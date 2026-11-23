@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Print Octos' own colours, so a partner sees one Farhat. */
+@theme {
+  --color-ink: #16110f;
+  --color-body: #7a7068;
+  --color-rule: #e2ddd4;
+  --color-substrate: #f1ede6;
+  --color-farhat: #e31e24;
+  --color-gold: #ffd43b;
+}
+
+html {
+  font-family: "Archivo", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #faf8f5;
+}
+
+/* 16px in every field, so a phone never zooms in on a tap. */
+input, select, textarea { font-size: 16px; }
